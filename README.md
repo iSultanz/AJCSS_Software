@@ -2,7 +2,7 @@
 ### CS310 - Software Engineering
 ### Course project
 
-### Team member 
+### Team members: 
 Sultan Attaf Al-Salmi (439013826) – Coordinator
 
 Abdulaziz Derham Asseri (439011531)
