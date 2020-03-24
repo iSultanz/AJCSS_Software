@@ -22,3 +22,6 @@ Sultan - added template for phase 2
 
 yasser - introduction has been added
 
+
+Sultan - detailed Design and conclusion have been added
+
