@@ -28,3 +28,5 @@ Sultan - detailed Design and conclusion have been added
 
 Abdulaziz - Two System-level diagram and User Interface Design have been added
 
+
+Musaad - Class diagram and Class method description have been added
