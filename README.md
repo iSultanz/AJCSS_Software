@@ -25,3 +25,5 @@ yasser - introduction has been added
 
 Sultan - detailed Design and conclusion have been added
 
+
+Musaad - Class diagram and Class methods description have been added
