@@ -1,0 +1,9 @@
+﻿100:primary
+200:intermidaite
+300:secondary
+400:vocational
+500:diploma
+600:bachelore
+700:higher diploma
+800:master
+900:doctorate

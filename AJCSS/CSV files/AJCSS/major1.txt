@@ -1,0 +1,6 @@
+code:desc
+legistlation:1100
+Administrative and commercial:1200
+production management:1300
+Hospitality, retail and other services:1400
+Science and engineering:2100
