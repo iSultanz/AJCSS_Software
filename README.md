@@ -3,15 +3,15 @@
 ### Course project
 
 ### Team members: 
-Sultan Attaf Al-Salmi (439013826) – Coordinator
+Sultan Attaf Al-Salmi (439013826) – Coordinator - @iSultanz
 
-Abdulaziz Derham Asseri (439011531)
+Abdulaziz Derham Asseri (439011531) - @adnasseri
 
-Musaad Mubarak Alhammami (439016695)
+Musaad Mubarak Alhammami (439016695) - @MusaadTech
 
-Yasser Ahmed Almuhaidib (439013620)
+Yasser Ahmed Almuhaidib (439013620) - @yassserahmed
 
-Auodh Mohmmed AL-Qahtani (435032042)
+Auodh Mohmmed AL-Qahtani (435032042) - @auodhnohmmad
 
 
 ### The Contribution of Team Members:
