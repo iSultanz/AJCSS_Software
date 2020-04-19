@@ -3268,6 +3268,8 @@ public class AJCSS extends javax.swing.JFrame {
             jComboBoxCanMajor.setSelectedIndex(getComboIndex(majorsData, candidatesData.get(canindex).getCanmajor()));
             jComboBoxCanGrade.setSelectedIndex(getGradeComboValue(gradeData, candidatesData.get(canindex).getCangrade()));
             jTextFieldCanCompany.setText((candidatesData.get(canindex).getCompany()));
+
+jTextFieldCanBirthDate.setText((candidatesData.get(canindex).getCanbirth()));
             jTextFieldCanCountry.setText((candidatesData.get(canindex).getCancountry()));
             jTextFieldCanEmail.setText(candidatesData.get(canindex).getCanemail());
             jTextFieldCanExpYears.setText(Integer.toString(candidatesData.get(canindex).getCanyearsexp()));
