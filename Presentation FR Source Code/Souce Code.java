@@ -75,9 +75,7 @@
                                         if (jobSkills.get(j).getValue() <= candSkills.get(k).getValue()) {
                                             matchedskills = matchedskills + candSkills.get(k).getSkill()+",";
                                             matchedskillsvalues = matchedskillsvalues + candSkills.get(k).getValue()+",";
-                                            totalScore = totalScore + candSkills.get(k).getValue();
-                                            
-                                         //   System.out.println(candList.get(i).getCanid()+"skill "+ candSkills.get(k).getValue()+"  "+ totalScore + );
+                                            totalScore = totalScore + candSkills.get(k).getValue();    
                                         }
                                     }
                                 }
@@ -89,19 +87,23 @@
                                             matchedcomps = matchedcomps + candComp.get(k).getCompetency()+",";
                                             matchedcompsvalues = matchedcompsvalues + candComp.get(k).getValue()+",";
                                             totalScore = totalScore + candComp.get(k).getValue();
-                                         //   System.out.println(candList.get(i).getCanid()+"comp "+ candComp.get(k).getValue()+"  "+ totalScore);
                                         }
                                     }
                                 }
                             }
-                            totPercent =  ((double) totalScore/(double)130*100);
+                            totPercent =  ((double) totalScore/(double)130)*100;
                             totPercent = Math.round(totPercent);
                             int t = (int) totPercent;
-                            if (matchedskills.length() > 0 ) matchedskills = matchedskills.substring(0,matchedskills.length()-1);
-                            if (matchedcomps.length() > 0 ) matchedcomps = matchedcomps.substring(0,matchedcomps.length()-1);
-                            if (matchedskillsvalues.length() > 0 ) matchedskillsvalues = matchedskillsvalues.substring(0,matchedskillsvalues.length()-1);
-                            if (matchedcompsvalues.length() > 0 ) matchedcompsvalues = matchedcompsvalues.substring(0,matchedcompsvalues.length()-1);
-                            mp.add(new MatchedPersons(candList.get(i).getCanid(), totalScore, (int) totPercent,matchedskills,matchedcomps,matchedskillsvalues,matchedcompsvalues));
+                            if (matchedskills.length() > 0 ) 
+				    matchedskills = matchedskills.substring(0,matchedskills.length()-1);
+                            if (matchedcomps.length() > 0 ) 
+				    matchedcomps = matchedcomps.substring(0,matchedcomps.length()-1);
+                            if (matchedskillsvalues.length() > 0 ) 
+				    matchedskillsvalues = matchedskillsvalues.substring(0,matchedskillsvalues.length()-1);
+                            if (matchedcompsvalues.length() > 0 ) 
+				    matchedcompsvalues = matchedcompsvalues.substring(0,matchedcompsvalues.length()-1);
+                            
+			    mp.add(new MatchedPersons(candList.get(i).getCanid(), totalScore, (int) totPercent,matchedskills,matchedcomps,matchedskillsvalues,matchedcompsvalues));
                             System.out.println(candList.get(i).getCanid()+"  "+ totalScore +"   "  +  totPercent + "   " + t + "  " + matchedskills +"    comp   "+ matchedcomps +" s values"+matchedskillsvalues+" c values "+matchedcompsvalues  );
                         }
                     }
@@ -276,4 +278,4 @@ private void jButtonSaveActionPerformed(java.awt.event.ActionEvent evt) {
             Logger.getLogger(AJCSS.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
-// All job functional requirements has similar code implmentation, you can check out the full source code on github.
+// All job functional requirements has similar code implmentation, you can check out the full source code on GitHub.
