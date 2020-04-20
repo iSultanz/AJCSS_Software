@@ -22,6 +22,7 @@ import javax.swing.JComboBox;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JRadioButton;
+import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.table.DefaultTableCellRenderer;
 import javax.swing.table.DefaultTableModel;
@@ -4198,4 +4199,42 @@ jTextFieldCanBirthDate.setText((candidatesData.get(canindex).getCanbirth()));
         jComboBoxComp4.setSelectedIndex(0);
         jComboBoxComp5.setSelectedIndex(0);            
     }
+    public boolean isEqualToString(JTextField jTextFieldjobText1, String compareTo) {
+     String text = jTextFieldjobText1.getText();
+     if(text.equals(compareTo)) {
+         return true;
+     }
+     return false;
+}
+  public boolean IsIntegerMinSalary(JTextField jTextFieldMinSalary1){
+  int x = 0;
+try {
+    x = Integer.parseInt(jTextFieldMinSalary.getText());
+    return true;
+} catch (NumberFormatException e) {
+    return false;
+}
+  }
+public boolean isIntegerMaxSalary(JTextField jTextFieldMaxSalary1){
+ int x = 0;
+try {
+    x = Integer.parseInt(jTextFieldMaxSalary1.getText());
+    return true;
+} catch (NumberFormatException e) {
+    return false;
+}
+} 
+
+public boolean isIntegerYearsofEXP(JTextField jTextFieldYearsOfExp1){
+    int x = 0;
+try {
+    x = Integer.parseInt(jTextFieldYearsOfExp1.getText());
+    return true;
+} catch (NumberFormatException e) {
+    return false;
+}
+
+  
+  
+  }
 }
