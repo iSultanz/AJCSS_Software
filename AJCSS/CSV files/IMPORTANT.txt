@@ -1,3 +1,6 @@
 If you want the software run properly you must put AJCSS folder into C root directory.
 
-* The desired AJCSS folder is in the path "AJCSS/CSV files/AJCSS" *
+********************************************
+* The desired AJCSS folder is in the path: *
+* "AJCSS/CSV files/AJCSS"                  *
+********************************************
